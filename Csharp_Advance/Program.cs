@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Csharp_Advance.Composition;
 using Csharp_Advance.Inheritance;
 
 namespace Csharp_Advance
@@ -11,9 +12,18 @@ namespace Csharp_Advance
     {
         static void Main(string[] args)
         {
+            //Inheritance
             var text = new Text();
             text.Copy();
             text.Duplicate();
+
+
+            //Composition
+            var dbMigrator = new DbMigrator(new Logger());
+            var installer = new Installer(new Logger());
+
+            dbMigrator.Migrate();
+            installer.Install();
         }
     }
 }

@@ -42,6 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Composition\DbMigrator.cs" />
+    <Compile Include="Composition\Installer.cs" />
+    <Compile Include="Composition\Logger.cs" />
     <Compile Include="Inheritance\PresentationObject.cs" />
     <Compile Include="Inheritance\Text.cs" />
     <Compile Include="Program.cs" />
@@ -50,5 +53,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
