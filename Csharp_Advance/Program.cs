@@ -38,16 +38,16 @@ namespace Csharp_Advance
             Car car = new Car("45To4");
 
             //Upcasting : you can simply convert an object reference to its base class reference.
-            Text text = new Text();
-            Shape shape = text;
+            Text text1 = new Text();
+            Shape shape = text1;
             
             text.Width = 200;
             shape.Width = 100;
             Console.WriteLine(text.Width); //100
 
             //Downcasting
-            Shape shape = new Text();
-            Text text = (Text) shape;
+            Shape shape2 = new Text();
+            Text text2 = (Text) shape2;
             text.FontName = "test";
 
         }
