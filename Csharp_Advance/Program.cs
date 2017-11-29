@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Amazon;
 using Csharp_Advance.AccessModifier;
 using Csharp_Advance.Composition;
 using Csharp_Advance.Inheritance;
@@ -29,7 +30,7 @@ namespace Csharp_Advance
 
             // Access Modofiers
             Customer customer = new Customer();
-            customer.Promote();
+            
         }
     }
 }

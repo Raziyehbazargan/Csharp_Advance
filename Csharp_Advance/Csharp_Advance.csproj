@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AccessModifier\Customer.cs" />
     <Compile Include="AccessModifier\GoldCustomer.cs" />
     <Compile Include="Composition\DbMigrator.cs" />
     <Compile Include="Composition\Installer.cs" />
@@ -56,6 +55,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Amazon.csproj">
+      <Project>{53C7A75E-70AF-40D3-B033-88D0A4800CEB}</Project>
+      <Name>Amazon</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
