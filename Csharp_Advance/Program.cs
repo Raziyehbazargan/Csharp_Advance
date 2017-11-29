@@ -7,7 +7,8 @@ using Amazon;
 using Csharp_Advance.AccessModifier;
 using Csharp_Advance.Composition;
 using Csharp_Advance.ConstructorInheritance;
-using Csharp_Advance.Inheritance;
+using Csharp_Advance.Upcasting_Downcasting;
+using Text = Csharp_Advance.Inheritance.Text;
 
 namespace Csharp_Advance
 {
@@ -36,7 +37,19 @@ namespace Csharp_Advance
             //Constructor Inheritance
             Car car = new Car("45To4");
 
+            //Upcasting : you can simply convert an object reference to its base class reference.
+            Text text = new Text();
+            Shape shape = text;
             
+            text.Width = 200;
+            shape.Width = 100;
+            Console.WriteLine(text.Width); //100
+
+            //Downcasting
+            Shape shape = new Text();
+            Text text = (Text) shape;
+            text.FontName = "test";
+
         }
     }
 }
