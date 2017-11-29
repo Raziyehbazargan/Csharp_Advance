@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Amazon;
 using Csharp_Advance.AccessModifier;
 using Csharp_Advance.Composition;
+using Csharp_Advance.ConstructorInheritance;
 using Csharp_Advance.Inheritance;
 
 namespace Csharp_Advance
@@ -30,6 +31,11 @@ namespace Csharp_Advance
 
             // Access Modofiers
             Customer customer = new Customer();
+
+
+            //Constructor Inheritance
+            Car car = new Car("45To4");
+
             
         }
     }
