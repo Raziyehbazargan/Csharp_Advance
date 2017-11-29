@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Csharp_Advance", "Csharp_Advance\Csharp_Advance.csproj", "{71AC7548-90CC-4F38-8D73-8FDFC44E8068}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Amazon", "ClassLibrary1\Amazon.csproj", "{53C7A75E-70AF-40D3-B033-88D0A4800CEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{71AC7548-90CC-4F38-8D73-8FDFC44E8068}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71AC7548-90CC-4F38-8D73-8FDFC44E8068}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71AC7548-90CC-4F38-8D73-8FDFC44E8068}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53C7A75E-70AF-40D3-B033-88D0A4800CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53C7A75E-70AF-40D3-B033-88D0A4800CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53C7A75E-70AF-40D3-B033-88D0A4800CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53C7A75E-70AF-40D3-B033-88D0A4800CEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
