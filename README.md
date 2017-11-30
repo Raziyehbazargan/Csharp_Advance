@@ -6,3 +6,4 @@
 - Constructors & Inheritance
 - Method Overriding
 - Abstract Class & Members
+- Sealed Classes & Members
