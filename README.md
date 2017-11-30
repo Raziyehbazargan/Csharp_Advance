@@ -4,4 +4,4 @@
 - Composition
 - Access Modofiers 
 - Constructors & Inheritance
-- Overriding
+- Method Overriding
