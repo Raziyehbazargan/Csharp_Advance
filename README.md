@@ -7,3 +7,4 @@
 - Method Overriding
 - Abstract Class & Members
 - Sealed Classes & Members
+- Interfaces
